@@ -1,6 +1,6 @@
 {
   "name": "simpane",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Puts the iOS Simulator beside your Claude Code session: a live screenshot, dark mode and text size switches, your app's own logs, and tools that let Claude see the screen for itself.",
   "author": {
     "name": "Gary Riches",
