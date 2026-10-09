@@ -1,5 +1,9 @@
 # simpane
 
+[![GitHub stars](https://img.shields.io/github/stars/griches/simpane?style=social)](https://github.com/griches/simpane)
+[![CI](https://github.com/griches/simpane/actions/workflows/ci.yml/badge.svg)](https://github.com/griches/simpane/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/griches/simpane.svg)](LICENSE)
+
 **The iOS Simulator beside your Claude Code session, and a way for Claude to see it.**
 
 simpane is a Claude Code mod for people building iOS apps. It puts a live picture of the booted simulator in a pane, with switches for dark mode and text size and your app's own log lines. It also gives Claude three tools, so that after changing a view it can take a screenshot and look, read what your app logged, or flip to dark mode and check again, without asking you to describe the screen.
