@@ -1,6 +1,6 @@
 {
   "name": "simpane",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Puts the iOS Simulator beside your Claude Code session: a live screenshot, dark mode and text size switches, your app's own logs, and tools that let Claude see the screen for itself.",
   "author": {
     "name": "Gary Riches",
@@ -8,6 +8,9 @@
   },
   "homepage": "https://github.com/griches/simpane",
   "repository": "https://github.com/griches/simpane",
+  "supportUrl": "https://github.com/griches/simpane/issues",
+  "documentationUrl": "https://github.com/griches/simpane#readme",
+  "privacyPolicyUrl": "https://github.com/griches/simpane#privacy",
   "license": "MIT",
   "keywords": ["ios", "simulator", "xcode", "swift", "swiftui", "screenshot", "simctl", "mod"],
   "types": "./types/index.d.ts",
