@@ -8,6 +8,7 @@
   },
   "homepage": "https://github.com/griches/simpane",
   "repository": "https://github.com/griches/simpane",
+  "license": "MIT",
   "keywords": ["ios", "simulator", "xcode", "swift", "swiftui", "screenshot", "simctl", "mod"],
   "types": "./types/index.d.ts",
   "userConfig": {

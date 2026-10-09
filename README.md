@@ -111,3 +111,7 @@ claude plugin validate .
 claude plugin test .
 claude --plugin-dir .
 ```
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
