@@ -1,0 +1,28 @@
+{
+  "name": "simpane",
+  "version": "0.1.0",
+  "description": "Puts the iOS Simulator beside your Claude Code session: a live screenshot, dark mode and text size switches, your app's own logs, and tools that let Claude see the screen for itself.",
+  "author": {
+    "name": "Gary Riches",
+    "url": "https://github.com/griches"
+  },
+  "homepage": "https://github.com/griches/simpane",
+  "repository": "https://github.com/griches/simpane",
+  "keywords": ["ios", "simulator", "xcode", "swift", "swiftui", "screenshot", "simctl", "mod"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "refresh": {
+      "type": "string",
+      "title": "Live refresh, in seconds",
+      "description": "How often the picture is retaken while the pane is on screen and Live is on. off: only on Refresh and after a command that changes the simulator.",
+      "options": ["1", "2", "5", "off"],
+      "default": "2"
+    },
+    "autoOpen": {
+      "type": "boolean",
+      "title": "Open the pane",
+      "description": "Open the pane when Claude installs, launches or builds for a booted simulator. Off: only on /simpane.",
+      "default": true
+    }
+  }
+}
